@@ -1,0 +1,74 @@
+
+.interaction-card {
+  background: #f5e8c8;
+  border: 1px solid #e8d49e;
+  border-radius: 17px;
+  padding: 26px;
+  margin: 28px 0;
+  box-shadow: 0 5px 15px rgba(130, 83, 91, 0.06);
+}
+
+.interaction-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #a9687d;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  color: #66515a;
+  margin: 0 0 18px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 15px;
+  border: 1px solid #dda6b8;
+  border-radius: 8px;
+  background: #fffaf0;
+  color: #55434a;
+  font-family: inherit;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #b8758c;
+  box-shadow: 0 0 0 3px rgba(184, 117, 140, 0.12);
+}
+
+.input-group button {
+  padding: 12px 25px;
+  background: #b8758c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input-group button:hover:not(:disabled) {
+  background: #98576f;
+}
+
+.input-group button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group button {
+    width: 100%;
+  }
+}

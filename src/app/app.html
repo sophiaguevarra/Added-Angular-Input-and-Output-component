@@ -1,0 +1,40 @@
+
+<main class="resume">
+  <app-header
+    [fullName]="fullName"
+    [location]="location"
+    [email]="email"
+    [phone]="phone"
+    [profile]="profile" />
+
+  <app-profile-card />
+
+  <app-skills
+    [skills]="skills"
+    (skillSelected)="onSkillSelected($event)" />
+
+  <section class="interaction">
+    <h2 class="section-title">Angular Interaction</h2>
+    <p>{{ message }}</p>
+  </section>
+
+  <!-- Input and Output -->
+  <app-input-output
+    [heading]="'SAY HELLO!'"
+    (messageSubmitted)="receiveMessage($event)">
+  </app-input-output>
+
+  <!-- Output Message -->
+  @if (submittedMessage) {
+    <div class="output-message">
+      <strong>Output</strong>
+      <p>{{ submittedMessage }}</p>
+    </div>
+  }
+
+  <!-- Footer -->
+  <app-footer
+    [fullName]="fullName"
+    [proficiencies]="proficiencies" />
+
+</main>

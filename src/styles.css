@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Quicksand:wght@500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4e9e8;
+  color: #55434a;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 1.8;
+}
+
+section {
+  margin: 26px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.section-title {
+  color: #a9687d;
+  border-bottom: 2px solid #e8c76a;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+button,
+.skill,
+.level {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}

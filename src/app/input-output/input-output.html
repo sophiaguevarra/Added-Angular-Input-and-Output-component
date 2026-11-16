@@ -1,0 +1,24 @@
+
+<div class="interaction-card">
+  <h3>{{ heading }}</h3>
+
+  <p class="description">
+    What's your name? Enter it below and see what happens!
+  </p>
+
+  <div class="input-group">
+    <input
+      type="text"
+      placeholder="Enter your name..."
+      [value]="message"
+      (input)="message = $any($event.target).value"
+      (keyup.enter)="submitMessage()"
+    />
+
+    <button
+      (click)="submitMessage()"
+      [disabled]="!message.trim()">
+      Submit
+    </button>
+  </div>
+</div>

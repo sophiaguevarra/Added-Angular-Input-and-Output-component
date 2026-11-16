@@ -1,0 +1,14 @@
+<div class="detail-container">
+  <h3>Selected Skill: <span>{{ selectedSkill }}</span></h3>
+
+  <div class="input-group">
+    <!-- INPUT FIELD -->
+    <input
+      type="text"
+      [(ngModel)]="updatedText"
+      placeholder="I-type ang bagong pangalan ng skill..."
+    />
+    <!-- BUTTON PARA MAG-TRIGGER NG OUTPUT -->
+    <button (click)="onSave()">I-save / I-update</button>
+  </div>
+</div>

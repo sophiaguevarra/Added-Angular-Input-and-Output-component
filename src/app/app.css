@@ -1,0 +1,147 @@
+
+.resume {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 45px;
+  background: #fff8ed;
+  color: #55434a;
+  border: 1px solid #ead9c9;
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(130, 83, 91, 0.12);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.8;
+}
+
+.intro {
+  padding: 38px;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #d99aae, #e8c76a);
+  color: #553b45;
+  border-radius: 20px;
+  border: 1px solid #d8b0a0;
+}
+
+.intro h1 {
+  margin: 0 0 10px;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  color: #603d4b;
+}
+
+.intro p {
+  margin: 0;
+  color: #654d4c;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: #8d4f68;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #62374c;
+  text-decoration: underline;
+}
+
+section {
+  margin: 28px 0;
+  padding: 26px;
+  background: #fffdf8;
+  border: 1px solid #eee0ca;
+  border-radius: 17px;
+  box-shadow: 0 5px 15px rgba(130, 83, 91, 0.06);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #a9687d;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+li {
+  margin: 9px 0;
+  padding-left: 5px;
+  color: #66515a;
+}
+
+li::marker {
+  color: #d99aae;
+}
+
+.interaction {
+  background: #f5e8c8;
+  border: 1px solid #e8d49e;
+}
+
+.interaction p {
+  padding: 14px 18px;
+  border-left: 4px solid #d99aae;
+  background: #fffaf0;
+  border-radius: 8px;
+  color: #66515a;
+}
+
+button {
+  padding: 12px 28px;
+  background: #b8758c;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #98576f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(130, 83, 91, 0.2);
+}
+
+@media (max-width: 600px) {
+  .resume {
+    margin: 12px;
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .intro {
+    padding: 23px;
+  }
+
+  .intro h1 {
+    font-size: 1.7rem;
+  }
+
+  section {
+    padding: 18px;
+  }
+
+/* Input and Output Result */
+.output-message {
+  background: #fffaf0;
+  border: 1px solid #e8d49e;
+  border-left: 4px solid #d99aae;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: -10px 0 28px;
+  color: #66515a;
+  overflow-wrap: anywhere;
+}
+
+.output-message strong {
+  color: #a9687d;
+  font-size: 1rem;
+}
+
+.output-message p {
+  margin-bottom: 0;
+}
+}
