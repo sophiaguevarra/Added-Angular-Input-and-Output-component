@@ -60,3 +60,4 @@ For more information on using the Angular CLI, including detailed command refere
 "# PRE-LAB02-Angular-Basics" 
 "# PRE-LAB02-Angular-Basics" 
 "# Added-Angular-Input-and-Output-component" 
+"# Guevarra_Sophia-Rain_PRE_ACT3" 
